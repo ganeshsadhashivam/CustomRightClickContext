@@ -20,14 +20,22 @@
 }
 
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
-  background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+  /* background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%); */
+  /* background: rgb(97,40,176); */
+  background: linear-gradient(
+    90deg,
+    rgba(97, 40, 176, 1) 0%,
+    rgba(172, 123, 123, 1) 100%
+  );
 }
 
 .wrapper {
+  position: absolute;
   visibility: hidden;
   width: 300px;
   background: #fff;
